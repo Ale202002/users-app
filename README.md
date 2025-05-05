@@ -26,12 +26,12 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
    ng serve
    (La aplicación estará disponible en http://localhost:4200.)
 
-**Uso**
+## Uso
 Al abrir el navegador en http://localhost:4200, verás la lista de usuarios obtenidos de la API de JSONPlaceholder.
 
 Los usuarios estarán mostrados en una tabla de PrimeNG con paginación y filtros.
 
-**Estructura del proyecto**
+## Estructura del proyecto
 
 src/app: Contiene los archivos de la aplicación Angular.
 
@@ -41,7 +41,7 @@ src/app/user-table/user-table.component.ts: Componente para mostrar la tabla de 
 
 src/app/interfaces/user.interface.ts: Define la estructura de los datos de usuario.
 
-**Contribuir**
+## Contribuir
 
 Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
@@ -53,7 +53,7 @@ Realiza tus cambios y haz commit (git commit -am 'Agregando nueva funcionalidad'
 
 Envía un pull request para revisar tus cambios. 
 
-**Licencia**
+## Licencia
 
 "No licenciado" 
 
