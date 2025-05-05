@@ -1,59 +1,62 @@
-# UsersApp
+# Proyecto de Usuarios App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+## Descripción
+Una aplicación Angular que muestra una lista de usuarios obtenidos de la API de JSONPlaceholder. La app utiliza componentes standalone y PrimeNG para mostrar los datos de forma ordenada y con filtros.
 
-## Development server
+## Requisitos previos
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+- **Node.js** (recomendado versión 16 o superior)
+- **npm** (viene con Node.js)
+- **Angular CLI** (si no lo tienes, puedes instalarlo con `npm install -g @angular/cli`)
 
-To start a local development server, run:
+## Instalación
 
-```bash
-ng serve
-```
+1. **Clonar el repositorio:**
+   Si aún no has clonado el proyecto, puedes hacerlo con el siguiente comando:
+   ```bash
+   git clone https://github.com/Ale202002/users-app.git
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. **Instalar dependencias:**
+   Navega a la carpeta del proyecto e instala las dependencias necesarias:
+   cd tu_repositorio
+   npm install
 
-## Code scaffolding
+3. **Ejecutar el proyecto:**
+   Después de instalar las dependencias, ejecuta el servidor de desarrollo con:
+   ng serve
+   (La aplicación estará disponible en http://localhost:4200.)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+**Uso**
+Al abrir el navegador en http://localhost:4200, verás la lista de usuarios obtenidos de la API de JSONPlaceholder.
 
-```bash
-ng generate component component-name
-```
+Los usuarios estarán mostrados en una tabla de PrimeNG con paginación y filtros.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**Estructura del proyecto**
 
-```bash
-ng generate --help
-```
+src/app: Contiene los archivos de la aplicación Angular.
 
-## Building
+src/app/home.component.ts: Componente que obtiene y muestra los usuarios.
 
-To build the project run:
+src/app/user-table/user-table.component.ts: Componente para mostrar la tabla de usuarios.
 
-```bash
-ng build
-```
+src/app/interfaces/user.interface.ts: Define la estructura de los datos de usuario.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**Contribuir**
 
-## Running unit tests
+Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Haz un fork (crear una copia del proyecto) de este repositorio.
 
-```bash
-ng test
-```
+Crea una nueva rama (git checkout -b nueva-funcionalidad).
 
-## Running end-to-end tests
+Realiza tus cambios y haz commit (git commit -am 'Agregando nueva funcionalidad').
 
-For end-to-end (e2e) testing, run:
+Envía un pull request para revisar tus cambios. 
 
-```bash
-ng e2e
-```
+**Licencia**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+"No licenciado" 
 
-## Additional Resources
+**Copyright (c) 2025 [Alexander Ortega]**
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
